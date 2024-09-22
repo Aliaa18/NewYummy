@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Yummy</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+
+            <div class="loadingScrean position-fixed top-0 bottom-0 start-0 end-0 justify-content-center align-items-center">
+              <i class="fa fa-spinner fa-spin fa-5x"></i>
+            </div>
+
+                <div class="sideNav  min-vh-100 position-fixed top-0  d-flex ">
+                          <div class="navContent min-vh-100">
+                            <div class="h-100 d-flex flex-column justify-content-between">
+                            <div class="navList ">
+                            <ul class="list-unstyled ">
+                              <li class="pb-3 searchLink"  onclick="closeSidebar()">Search</li>
+                              <li class="pb-3 categoryLink" onclick="closeSidebar()">Categories</li>
+                              <li class=" pb-3 areaLink" onclick="closeSidebar()">Area</li>
+                              <li class="pb-3 ingredientsLink" onclick="closeSidebar()">Ingredients</li>
+                              <li class="pb-3 contactLink " onclick="closeSidebar()">Contact Us</li>
+                            </ul>
+                            </div>
+
+                            <div class="parg">
+                            <p>
+                              <span><i class="fab fa-facebook"></i></span>
+                              <span><i class="fab fa-twitter"></i></span>
+                              <span><i class="fa fa-globe"></i></span>
+                            </p>
+                            <p >Copyright Â© 2019 All
+                          <br>  Rights Reserved.</p>
+                          </div> 
+                        </div> </div>
+
+                            <div class="navButton  d-flex flex-column justify-content-between w-25 py-5 ps-3 ">
+                              <div> <img src="./css/img/logo.png" alt="Yummy icon" class=" w-75" ></div>
+                              <div><i id="cls" class="fa-solid open-close-icon fa-align-justify fa-2x ps-2 opnCloseBtn"></i></div>
+                              <div class="ps-1">
+                                <p class="mb-0"><i class="fa fa-globe"></i>
+                                </p><p class="mar"><i class="fa fa-share-nodes"></i></p>
+                              </div>
+                            </div>    
+
+                </div>
+
+                           <!-- search view -->
+                <div id="search" class=" my-4 container ">
+                  <!-- <div class="inputs container w-75">
+                    <div class="row">
+                      <div class="col-md-6 "> <input oninput="searchByName(this.value)" type="text" placeholder="Search By Name" id="nameSearch" class=" rounded-2 text-white "></div>
+                        <div class="col-md-6"><input oninput="searchByFLetter(this.value)" maxlength="1" type="text" placeholder="Search By First" id="letterSearch" class=" rounded-2 text-white "></div>
+                   </div></div> -->
+                        
+                </div>
+                <div class=" position-relative min-vh-100">
+                  <div class="SectionsLoading top-0 bottom-0 end-0 start-0 position-absolute justify-content-center align-items-center">
+                <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+              </div>
+                          <!-- display data -->
+                <div class="container py-4">
+                            <div class="row  g-4 " id="dataView">
+                                <!-- <div class="col-md-4 text-white">
+                                     <img src="./css/img/logo.png" alt="" class="w-100">
+                                     <h2>Logo</h2>
+                                </div>
+                                <div class="col-md-8 text-white">
+                                  <h2>Instructions :</h2>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sit eos ullam voluptas tempore temporibus cumque laudantium, quod laboriosam nam.</p>
+                                   <h3>Area:rggty</h3>
+                                   <h3>Category:rggty</h3>
+                                   <h3 class="mb-3">Tags:</h3>
+                                    <a href="" class="btn btn-success me-1">Sourse</a> <a href="" class="btn btn-danger">Youtube</a>
+                                </div> -->
+                             </div>
+                            
+             </div> </div>
+                        <!-- loading screen -->
+
+                       
+
+             <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script src="./js/index.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
